@@ -1,7 +1,9 @@
 import logo from "../assets/logo.png"
+import backgroundImage from "../assets/background.jpg"
 const LeftPart = () => {
   return (
-    <div className='bg-hero bg-no-repeat bg-cover bg-center h-full relative '>
+    <div style={{ backgroundImage: `url(${backgroundImage})` }}
+      className=' bg-no-repeat bg-cover bg-center h-full relative '>
       <div className=' bg-black  bg-opacity-40 text-3xl p-1 h-[9rem] absolute top-[15rem] w-full flex  justify-center '>
         <img src={logo} className="mr-4" />
         <div className="font-norse text-white text-8xl  flex flex-col justify-center">Odin</div>

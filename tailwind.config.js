@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('./src/assets/background.jpg')",
+        'hero': "url('./public/background.jpg')",
       },
       fontFamily: {
         'norse': ['Norse']

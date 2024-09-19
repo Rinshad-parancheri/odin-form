@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Rinshad-parancheri.github.io/odin-form",
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -13,12 +14,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "@eslint/js": "^9.9.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
